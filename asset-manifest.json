@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/MihailCataraga/pageTest/static/css/main.e196589b.css",
+    "main.js": "/MihailCataraga/pageTest/static/js/main.7f697a6c.js",
+    "index.html": "/MihailCataraga/pageTest/index.html",
+    "main.e196589b.css.map": "/MihailCataraga/pageTest/static/css/main.e196589b.css.map",
+    "main.7f697a6c.js.map": "/MihailCataraga/pageTest/static/js/main.7f697a6c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e196589b.css",
+    "static/js/main.7f697a6c.js"
+  ]
+}
