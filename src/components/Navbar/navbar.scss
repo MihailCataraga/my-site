@@ -1,0 +1,25 @@
+@import '../../style/variables.scss';
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .logo{
+        a{
+            text-decoration: none;
+            h1{
+                color: $textColor;
+            }
+        }
+    }
+    nav{
+        
+        a{
+            color: $textColor;
+            text-decoration: none;
+        }
+        .active{
+            color: blue;
+        }
+    }
+}
