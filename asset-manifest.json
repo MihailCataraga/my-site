@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/MihailCataraga/my-site/static/css/main.e196589b.css",
-    "main.js": "/MihailCataraga/my-site/static/js/main.5a34a745.js",
+    "main.js": "/MihailCataraga/my-site/static/js/main.0dd166b5.js",
     "index.html": "/MihailCataraga/my-site/index.html",
     "main.e196589b.css.map": "/MihailCataraga/my-site/static/css/main.e196589b.css.map",
-    "main.5a34a745.js.map": "/MihailCataraga/my-site/static/js/main.5a34a745.js.map"
+    "main.0dd166b5.js.map": "/MihailCataraga/my-site/static/js/main.0dd166b5.js.map"
   },
   "entrypoints": [
     "static/css/main.e196589b.css",
-    "static/js/main.5a34a745.js"
+    "static/js/main.0dd166b5.js"
   ]
 }
