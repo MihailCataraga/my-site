@@ -4,22 +4,140 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: $darkBlueColor;
+    border-bottom: 3px solid $orangeColor;
     .logo{
+        margin-left: 150px;
         a{
             text-decoration: none;
             h1{
-                color: $textColor;
+                color: $whiteColor;
+                font-size: 48px;
+                margin: 10px;
+                span{
+                    font-size: 40px;
+                    font-style: italic;
+                    margin-left: 5px;
+                    color: $greyColor;
+                }
             }
         }
     }
-    nav{
-        
+    #clasicMenu{
+        margin-right: 150px;
         a{
-            color: $textColor;
+            color: $whiteColor;
             text-decoration: none;
+            margin-left: 30px;
+            font-size: 20px;
+            color: $whiteColor;
         }
         .active{
-            color: blue;
+            color: $orangeColor;
+        }
+    }
+    .menuIcon{
+        display: none;
+    }
+    #miniMenu{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .navbar{
+        .logo{
+            margin-left: 100px;
+            a{
+                h1{
+                    font-size: 44px;
+                    margin: 8px;
+                    span{
+                        font-size: 36px;
+                    }
+                }
+            }
+        }
+        #clasicMenu{
+            margin-right: 100px;
+            a{
+                margin-left: 25px;
+                font-size: 18px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .navbar{
+        .logo{
+            margin-left: 50px;
+            a{
+                h1{
+                    font-size: 40px;
+                    margin: 6px;
+                    span{
+                        font-size: 32px;
+                    }
+                }
+            }
+        }
+        #clasicMenu{
+            margin-right: 50px;
+            a{
+                margin-left: 20px;
+                font-size: 16px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .navbar{
+        position: relative;
+        .logo{
+            margin-left: 30px;
+            a{
+                h1{
+                    font-size: 40px;
+                    margin: 6px;
+                    span{
+                        font-size: 32px;
+                    }
+                }
+            }
+        }
+        #clasicMenu{
+            display: none;
+        }
+        .menuIcon{
+            display: initial;
+            margin-right: 40px;
+            font-size: 28px;
+        }
+        #miniMenu{
+            background-color: $darkBlueColor;
+            border-bottom: 3px solid $orangeColor;
+            border-left: 3px solid $orangeColor;
+            border-right: 3px solid $orangeColor;
+            border-radius: 0 0 10px 10px;
+            padding: 5px;
+            position: absolute;
+            display: flex;
+            flex-direction: column;
+            right: 10px;
+            top: 59px;
+            a{
+                font-size: 16px;
+                text-decoration: none;
+                color: $whiteColor;
+                padding: 5px;
+                text-align: center;
+                
+            }
+            .active{
+                color: $orangeColor;
+            }
         }
     }
 }

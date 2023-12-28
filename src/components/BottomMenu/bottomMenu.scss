@@ -1,0 +1,23 @@
+@import '../../style/variables.scss';
+
+.menuBox{
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%);
+    bottom: 20px;
+    padding: 10px 20px;
+    background-color: $darkBlueColor;
+    border: 3px solid $orangeColor;
+    border-radius: 30px;
+    #miniMenu{
+        
+        .iconMiniMenu{
+            color: $whiteColor;
+            font-size: 28px;
+        }
+        .iconVertical{
+            color: $greyColor;
+            font-size: 28px;
+        }
+    }
+}
