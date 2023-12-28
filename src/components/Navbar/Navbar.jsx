@@ -12,8 +12,8 @@ const Navbar = () => {
             </div>
             <nav>
                 <NavLink to={'/'}>Home</NavLink>
-                <NavLink to={'/about'}>About My</NavLink>
-                <NavLink to={'/projects'}>Projects</NavLink>
+                {/* <NavLink to={'/about'}>About My</NavLink>
+                <NavLink to={'/projects'}>Projects</NavLink> */}
             </nav> 
         </div>
         
