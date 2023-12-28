@@ -6,11 +6,11 @@ import Home from "./pages/Home";
 function App() {
   return (
     <div className="App">
-      <BrowserRouter basename="/my-site/">
+      {/* <BrowserRouter basename="/my-site/">
         <Routes>
           <Route path="/" element={<Home />} />
         </Routes>
-      </BrowserRouter>
+      </BrowserRouter> */}
       Hello Mihai
     </div>
   );
