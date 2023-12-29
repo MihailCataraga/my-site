@@ -1,7 +1,7 @@
 {
   "name": "my-website",
   "version": "0.1.0",
-  "homepage": "https://mihailcataraga.github.io/my-site/",
+  "homepage": "https://mihailcataraga.github.io/my-site",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.11.3",
