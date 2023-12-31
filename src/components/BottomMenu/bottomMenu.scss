@@ -10,7 +10,11 @@
     border: 3px solid $orangeColor;
     border-radius: 30px;
     #miniMenu{
-        
+        .active{
+            .iconMiniMenu{
+                color: $orangeColor;
+            }
+        }
         .iconMiniMenu{
             color: $whiteColor;
             font-size: 28px;

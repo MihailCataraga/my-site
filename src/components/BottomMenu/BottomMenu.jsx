@@ -7,10 +7,10 @@ import { NavLink } from 'react-router-dom';
 import './bottomMenu.scss'
 
 export default function BottomMenu() {
+    // onClick to scroll to top
     const scrollToTop = () => {
         window.scrollTo({
-            top: 0,
-            behavior: 'smooth'
+            top: 0
         })
     }
     return (

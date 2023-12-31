@@ -13,17 +13,9 @@ const Navbar = () => {
                     <h1>MC<span>site</span></h1>
                 </NavLink>
             </div>
-            {/* {window.screen.width > 450 ? 
-                <nav>
-                    <NavLink to={'/'}>Home</NavLink>
-                    <NavLink to={'/about'}>About My</NavLink>
-                    <NavLink to={'/projects'}>Projects</NavLink>
-                </nav> :
-                <p>menu</p>
-            } */}
             <nav id='clasicMenu'>
                 <NavLink to={'/'}>Home</NavLink>
-                <NavLink to={'/about'}>About My</NavLink>
+                <NavLink to={'/about'}>About Me</NavLink>
                 <NavLink to={'/projects'}>Projects</NavLink>
             </nav>
             {menu ? 
