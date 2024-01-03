@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Navbar from '../components/Navbar/Navbar';
 import BottomMenu from '../components/BottomMenu/BottomMenu';
 import './home.scss'
+import Formik from '../components/Formik';
 
 
 const Home = () => {
@@ -20,7 +21,9 @@ const Home = () => {
     <div id='home'>
       <Navbar />
       {menu && <BottomMenu />}
-      <div style={{ height: '1200px' }}></div>
+      <div style={{ height: '1200px' }}>
+        <Formik />
+      </div>
     </div>
   );
 }

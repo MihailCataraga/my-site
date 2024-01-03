@@ -1,0 +1,35 @@
+@import '../style/variables.scss';
+
+#about {
+    .aboutBox {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        h1 {
+            font-size: 36px;
+            color: $whiteColor;
+        }
+
+        .aboutContent {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .leftContent {
+                img {
+
+                }
+
+                h3 {
+
+                }
+            }
+
+            .rightContent {
+                h2 {
+
+                }
+            }
+        }
+    }
+}
